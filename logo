@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo copy</title>
+    <style>
+.menu ol{
+    display:flex;list-style: none; color: #88e7d3; border-color: aquamarine solid;gap: 30px;}
+    .button
+    {
+        background-color: rgb(226, 223, 43);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid blue;
+    border-radius: 5px;
+    }
+    .button:hover{
+        background-color:rgb(104, 116, 231);
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-logo.svg"
+            </div>
+            <div class="menu">
+                <ol>
+                    <li><span >PRODUCT&#9662</span></li>
+                    <li><span>BUY&#9662</span></li>
+                    <li><span>RENEW&#9662</span></li>
+                    <li><span>SUPPORT&#9662</span></li>
+                     <li><span>LEARN&#9662</span></li>
+                      <li><span>COMPANY&#9662</span></li>
+                       <li><a class="button" href="https://www.ultraedit.com/downloads/ultraedit-download-thank-you/">Download </a>
+
+                </ol>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
